@@ -1,0 +1,36 @@
+{
+  "name": "instasaved",
+  "version": "1.0.0",
+  "description": "A simple command line tool to download all images you have saved on Instagram",
+  "main": "insta.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stridsvagn69420/InstaSaved.git"
+  },
+  "keywords": [
+    "insta",
+    "instagram",
+    "downloader",
+    "image",
+    "images",
+    "save",
+    "saved",
+    "command",
+    "line",
+    "cmd"
+  ],
+  "author": "Stridsvagn69420",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Stridsvagn69420/InstaSaved/issues"
+  },
+  "homepage": "https://github.com/Stridsvagn69420/InstaSaved#readme",
+  "dependencies": {
+    "instagram-private-api": "^1.45.1",
+    "node-fetch": "^2.6.1",
+    "totp-generator": "0.0.9"
+  }
+}
