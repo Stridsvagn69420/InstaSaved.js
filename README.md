@@ -7,7 +7,13 @@ I used code from [pietrocaselani](https://github.com/pietrocaselani)'s [Instagra
 # Installation
 Similar to [TwitterBookmarks](https://github.com/Stridsvagn69420/TwitterBookmarks#framework-dependent-binary), the execution script must be inside a folder registered in your PATH variable (e.g. /usr/bin on Linux and other Unix-like systems):  
 
-Clone the repository, run `npm i` to install all Node modules needed and add a `cd /path/to/local/instasaved/folder` into the `instasave` script file (Node.js and NPM required)
+## 
+Clone the repository, run `npm i` to install all Node modules needed and add this `instasave` Unix-script in a folder registered in your PATH variable:
+```sh
+#!/bin/sh
+cd /path/to/git/clone
+npm start
+```
 
 ## Adding credentials
 Also similar to [TwitterBookmarks](https://github.com/Stridsvagn69420/TwitterBookmarks#platform-binary), a config file is needed where credentials and other settings are stored in.  
@@ -29,3 +35,6 @@ This step is only neccesary if you're using 2FA with e.g. Google Authenticator (
 If your Authenticator app doesn't support directly exporting the key as text but a QR Code (like Google Authenticator) and you didn't save the key anywhere else/didn't get a key at all, copy the QR Code and use a reader to get the key in text. Google Lens supports directly reading text from QR Codes.
 
 If you're using WinAuth, you can directly copy it by right-clicking on the account and then copying the Secrect Key into the `config.json` file.
+
+# Usage
+Run `instasave` in a terminal and it should work.
