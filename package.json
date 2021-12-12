@@ -32,6 +32,6 @@
   "dependencies": {
     "instagram-private-api": "^1.45.2",
     "node-fetch": "^3.1.0",
-    "totp-generator": "0.0.9"
+    "totp-generator": "0.0.13"
   }
 }
