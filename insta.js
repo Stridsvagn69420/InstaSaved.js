@@ -5,7 +5,7 @@ const fs = require("fs");
 const { username, password, twoFA_key, downloadDir, delay } = require(path.join(os.homedir(), ".config/instasave/config.json"));
 const { IgApiClient } = require("instagram-private-api");
 const totp = require("totp-generator");
-const fetch = require("node-fetch");
+const fetch = import("node-fetch");
 const delayMS = ms => new Promise((resolve, reject) => setTimeout(() => resolve(), ms));
 
 //main function
