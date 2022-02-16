@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/Stridsvagn69420/InstaSaved#readme",
   "dependencies": {
-    "instagram-private-api": "^1.45.2",
+    "instagram-private-api": "^1.45.3",
     "node-fetch": "^3.2.0",
     "totp-generator": "0.0.13"
   }
